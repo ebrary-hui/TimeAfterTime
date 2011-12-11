@@ -1,0 +1,237 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A52B86C814947C8500F769EB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A52B86C714947C8500F769EB /* Foundation.framework */; };
+		A52B86CB14947C8500F769EB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A52B86CA14947C8500F769EB /* main.m */; };
+		A52B86CF14947C8500F769EB /* TimeAfterTime.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = A52B86CE14947C8500F769EB /* TimeAfterTime.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A52B86C114947C8500F769EB /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				A52B86CF14947C8500F769EB /* TimeAfterTime.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A52B86C314947C8500F769EB /* TimeAfterTime */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TimeAfterTime; sourceTree = BUILT_PRODUCTS_DIR; };
+		A52B86C714947C8500F769EB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A52B86CA14947C8500F769EB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A52B86CD14947C8500F769EB /* TimeAfterTime-Prefix.pch */ = {isa = PBXFileReference; path = "TimeAfterTime-Prefix.pch"; sourceTree = "<group>"; };
+		A52B86CE14947C8500F769EB /* TimeAfterTime.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = TimeAfterTime.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A52B86C014947C8500F769EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A52B86C814947C8500F769EB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A52B86B814947C8500F769EB = {
+			isa = PBXGroup;
+			children = (
+				A52B86C914947C8500F769EB /* TimeAfterTime */,
+				A52B86C614947C8500F769EB /* Frameworks */,
+				A52B86C414947C8500F769EB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A52B86C414947C8500F769EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A52B86C314947C8500F769EB /* TimeAfterTime */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A52B86C614947C8500F769EB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A52B86C714947C8500F769EB /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A52B86C914947C8500F769EB /* TimeAfterTime */ = {
+			isa = PBXGroup;
+			children = (
+				A52B86CA14947C8500F769EB /* main.m */,
+				A52B86CE14947C8500F769EB /* TimeAfterTime.1 */,
+				A52B86CC14947C8500F769EB /* Supporting Files */,
+			);
+			path = TimeAfterTime;
+			sourceTree = "<group>";
+		};
+		A52B86CC14947C8500F769EB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A52B86CD14947C8500F769EB /* TimeAfterTime-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A52B86C214947C8500F769EB /* TimeAfterTime */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A52B86D214947C8500F769EB /* Build configuration list for PBXNativeTarget "TimeAfterTime" */;
+			buildPhases = (
+				A52B86BF14947C8500F769EB /* Sources */,
+				A52B86C014947C8500F769EB /* Frameworks */,
+				A52B86C114947C8500F769EB /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TimeAfterTime;
+			productName = TimeAfterTime;
+			productReference = A52B86C314947C8500F769EB /* TimeAfterTime */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A52B86BA14947C8500F769EB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "ebrary Inc";
+			};
+			buildConfigurationList = A52B86BD14947C8500F769EB /* Build configuration list for PBXProject "TimeAfterTime" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A52B86B814947C8500F769EB;
+			productRefGroup = A52B86C414947C8500F769EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A52B86C214947C8500F769EB /* TimeAfterTime */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A52B86BF14947C8500F769EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A52B86CB14947C8500F769EB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A52B86D014947C8500F769EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A52B86D114947C8500F769EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A52B86D314947C8500F769EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TimeAfterTime/TimeAfterTime-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A52B86D414947C8500F769EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TimeAfterTime/TimeAfterTime-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A52B86BD14947C8500F769EB /* Build configuration list for PBXProject "TimeAfterTime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A52B86D014947C8500F769EB /* Debug */,
+				A52B86D114947C8500F769EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A52B86D214947C8500F769EB /* Build configuration list for PBXNativeTarget "TimeAfterTime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A52B86D314947C8500F769EB /* Debug */,
+				A52B86D414947C8500F769EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A52B86BA14947C8500F769EB /* Project object */;
+}
