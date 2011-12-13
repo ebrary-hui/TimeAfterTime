@@ -7,9 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A512D2FA1495D43D0027B8E1 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = A512D2F91495D43D0027B8E1 /* Person.m */; };
 		A52B86C814947C8500F769EB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A52B86C714947C8500F769EB /* Foundation.framework */; };
 		A52B86CB14947C8500F769EB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A52B86CA14947C8500F769EB /* main.m */; };
 		A52B86CF14947C8500F769EB /* TimeAfterTime.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = A52B86CE14947C8500F769EB /* TimeAfterTime.1 */; };
+		A58ACAAD14971AAA00EFABFD /* MiscTest.m in Sources */ = {isa = PBXBuildFile; fileRef = A58ACAAC14971AAA00EFABFD /* MiscTest.m */; };
+		A58ACAB114971E2600EFABFD /* StockHolding.m in Sources */ = {isa = PBXBuildFile; fileRef = A58ACAB014971E2600EFABFD /* StockHolding.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,11 +29,17 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		A512D2F81495D43D0027B8E1 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		A512D2F91495D43D0027B8E1 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		A52B86C314947C8500F769EB /* TimeAfterTime */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TimeAfterTime; sourceTree = BUILT_PRODUCTS_DIR; };
 		A52B86C714947C8500F769EB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A52B86CA14947C8500F769EB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A52B86CD14947C8500F769EB /* TimeAfterTime-Prefix.pch */ = {isa = PBXFileReference; path = "TimeAfterTime-Prefix.pch"; sourceTree = "<group>"; };
+		A52B86CD14947C8500F769EB /* TimeAfterTime-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TimeAfterTime-Prefix.pch"; sourceTree = "<group>"; };
 		A52B86CE14947C8500F769EB /* TimeAfterTime.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = TimeAfterTime.1; sourceTree = "<group>"; };
+		A58ACAAB14971AAA00EFABFD /* MiscTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MiscTest.h; sourceTree = "<group>"; };
+		A58ACAAC14971AAA00EFABFD /* MiscTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MiscTest.m; sourceTree = "<group>"; };
+		A58ACAAF14971E2600EFABFD /* StockHolding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StockHolding.h; sourceTree = "<group>"; };
+		A58ACAB014971E2600EFABFD /* StockHolding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StockHolding.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +83,12 @@
 			isa = PBXGroup;
 			children = (
 				A52B86CA14947C8500F769EB /* main.m */,
+				A58ACAAF14971E2600EFABFD /* StockHolding.h */,
+				A58ACAB014971E2600EFABFD /* StockHolding.m */,
+				A58ACAAB14971AAA00EFABFD /* MiscTest.h */,
+				A58ACAAC14971AAA00EFABFD /* MiscTest.m */,
+				A512D2F81495D43D0027B8E1 /* Person.h */,
+				A512D2F91495D43D0027B8E1 /* Person.m */,
 				A52B86CE14947C8500F769EB /* TimeAfterTime.1 */,
 				A52B86CC14947C8500F769EB /* Supporting Files */,
 			);
@@ -140,6 +155,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A52B86CB14947C8500F769EB /* main.m in Sources */,
+				A512D2FA1495D43D0027B8E1 /* Person.m in Sources */,
+				A58ACAAD14971AAA00EFABFD /* MiscTest.m in Sources */,
+				A58ACAB114971E2600EFABFD /* StockHolding.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -230,6 +248,7 @@
 				A52B86D414947C8500F769EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
