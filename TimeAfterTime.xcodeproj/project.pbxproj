@@ -11,6 +11,8 @@
 		A52B86C814947C8500F769EB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A52B86C714947C8500F769EB /* Foundation.framework */; };
 		A52B86CB14947C8500F769EB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A52B86CA14947C8500F769EB /* main.m */; };
 		A52B86CF14947C8500F769EB /* TimeAfterTime.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = A52B86CE14947C8500F769EB /* TimeAfterTime.1 */; };
+		A57B46611499B0FF00DB2DA4 /* Employee.m in Sources */ = {isa = PBXBuildFile; fileRef = A57B46601499B0FF00DB2DA4 /* Employee.m */; };
+		A57B46651499BB9000DB2DA4 /* ForeignStockHolding.m in Sources */ = {isa = PBXBuildFile; fileRef = A57B46641499BB9000DB2DA4 /* ForeignStockHolding.m */; };
 		A58ACAAD14971AAA00EFABFD /* MiscTest.m in Sources */ = {isa = PBXBuildFile; fileRef = A58ACAAC14971AAA00EFABFD /* MiscTest.m */; };
 		A58ACAB114971E2600EFABFD /* StockHolding.m in Sources */ = {isa = PBXBuildFile; fileRef = A58ACAB014971E2600EFABFD /* StockHolding.m */; };
 /* End PBXBuildFile section */
@@ -36,6 +38,10 @@
 		A52B86CA14947C8500F769EB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A52B86CD14947C8500F769EB /* TimeAfterTime-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TimeAfterTime-Prefix.pch"; sourceTree = "<group>"; };
 		A52B86CE14947C8500F769EB /* TimeAfterTime.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = TimeAfterTime.1; sourceTree = "<group>"; };
+		A57B465F1499B0FF00DB2DA4 /* Employee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Employee.h; path = Employee/Employee.h; sourceTree = "<group>"; };
+		A57B46601499B0FF00DB2DA4 /* Employee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Employee.m; path = Employee/Employee.m; sourceTree = "<group>"; };
+		A57B46631499BB9000DB2DA4 /* ForeignStockHolding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ForeignStockHolding.h; path = Stock/ForeignStockHolding.h; sourceTree = "<group>"; };
+		A57B46641499BB9000DB2DA4 /* ForeignStockHolding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ForeignStockHolding.m; path = Stock/ForeignStockHolding.m; sourceTree = "<group>"; };
 		A58ACAAB14971AAA00EFABFD /* MiscTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MiscTest.h; sourceTree = "<group>"; };
 		A58ACAAC14971AAA00EFABFD /* MiscTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MiscTest.m; sourceTree = "<group>"; };
 		A58ACAAF14971E2600EFABFD /* StockHolding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StockHolding.h; sourceTree = "<group>"; };
@@ -91,6 +97,10 @@
 				A512D2F91495D43D0027B8E1 /* Person.m */,
 				A52B86CE14947C8500F769EB /* TimeAfterTime.1 */,
 				A52B86CC14947C8500F769EB /* Supporting Files */,
+				A57B465F1499B0FF00DB2DA4 /* Employee.h */,
+				A57B46601499B0FF00DB2DA4 /* Employee.m */,
+				A57B46631499BB9000DB2DA4 /* ForeignStockHolding.h */,
+				A57B46641499BB9000DB2DA4 /* ForeignStockHolding.m */,
 			);
 			path = TimeAfterTime;
 			sourceTree = "<group>";
@@ -158,6 +168,8 @@
 				A512D2FA1495D43D0027B8E1 /* Person.m in Sources */,
 				A58ACAAD14971AAA00EFABFD /* MiscTest.m in Sources */,
 				A58ACAB114971E2600EFABFD /* StockHolding.m in Sources */,
+				A57B46611499B0FF00DB2DA4 /* Employee.m in Sources */,
+				A57B46651499BB9000DB2DA4 /* ForeignStockHolding.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

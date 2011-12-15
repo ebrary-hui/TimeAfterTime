@@ -9,6 +9,8 @@
 #import <Foundation/Foundation.h>
 #import "Person.h"
 #import "StockHolding.h"
+#import "Employee.h"
+#import "ForeignStockHolding.h"
 
 int main (int argc, const char * argv[])
 {
@@ -77,15 +79,16 @@ int main (int argc, const char * argv[])
             }
         }
         
-        Person *person =[[Person alloc] init];
+        Employee *person =[[Employee alloc] init];
         [person setHeightInMeters:1.67];
         [person setWeightInKilos:65];
-        NSLog(@"BMI is: %f", [person bodyMassIndex]);
+        [person setEmployeeID:2];
+        NSLog(@"BMI of %d is: %f", [person employeeID],[person bodyMassIndex]);
         
         NSMutableArray *stocks = [NSMutableArray arrayWithCapacity:20];
-        [stocks addObject:[[StockHolding alloc] initWithPurchasePrice:13 shares:200]];
-        [stocks addObject:[[StockHolding alloc] initWithPurchasePrice:34 shares:100]];
-        [stocks addObject:[[StockHolding alloc] initWithPurchasePrice:12.9 shares:150]];
+        [stocks addObject:[[ForeignStockHolding alloc] initWithPurchasePrice:13 shares:200 rate:1.5]];
+        [stocks addObject:[[ForeignStockHolding alloc] initWithPurchasePrice:34 shares:100]];
+        [stocks addObject:[[ForeignStockHolding alloc] initWithPurchasePrice:12.9 shares:150]];
         
         for (StockHolding *s in stocks){
             NSLog(@"cost is: %f", [s costInDollars]);

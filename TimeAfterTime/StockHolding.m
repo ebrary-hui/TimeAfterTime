@@ -21,8 +21,10 @@
 }
 
 -(StockHolding *) initWithPurchasePrice:(float)price shares:(float)shares{
-    [self setPurchasePrice:price];
-    [self setNumberOfShares:shares];
+    if (self = [super init]){
+        [self setPurchasePrice:price];
+        [self setNumberOfShares:shares];
+    }
     return self;
 }
 @end
