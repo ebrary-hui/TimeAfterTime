@@ -11,6 +11,9 @@
 #import "Person.h"
 @interface Employee : Person{
     int employeeID;
+    NSString *lastName;
+    Person *spouse;
+    NSMutableArray *children;
 }
 
 @property int employeeID;
