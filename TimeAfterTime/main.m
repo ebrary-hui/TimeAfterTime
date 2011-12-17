@@ -78,21 +78,53 @@ int main (int argc, const char * argv[])
                 }
             }
         }
+        NSMutableArray *employees = [[NSMutableArray alloc] init];
         
-        Employee *person =[[Employee alloc] init];
-        [person setHeightInMeters:1.67];
-        [person setWeightInKilos:65];
-        [person setEmployeeID:2];
-        NSLog(@"BMI of %d is: %f", [person employeeID],[person bodyMassIndex]);
-        
-        NSMutableArray *stocks = [NSMutableArray arrayWithCapacity:20];
-        [stocks addObject:[[ForeignStockHolding alloc] initWithPurchasePrice:13 shares:200 rate:1.5]];
-        [stocks addObject:[[ForeignStockHolding alloc] initWithPurchasePrice:34 shares:100]];
-        [stocks addObject:[[ForeignStockHolding alloc] initWithPurchasePrice:12.9 shares:150]];
-        
-        for (StockHolding *s in stocks){
-            NSLog(@"cost is: %f", [s costInDollars]);
+        for (int i = 0; i < 10; i++) {
+            
+            // Create an instance of Employee
+            Employee *person = [[Employee alloc] init];
+            
+            // Give the instance variables interesting values
+            [person setWeightInKilos:90 + i];
+            [person setHeightInMeters:1.8 - i/10.0];
+            [person setEmployeeID:i];
+            
+            // Put the employee in the employees array
+            [employees addObject:person];
         }
+        
+        // Create 10 assets
+        for (int i = 0; i < 10; i++) {
+            
+            // Create an asset
+            Asset *asset = [[Asset alloc] init];
+            
+            // Give it an interesting label
+            NSString *currentLabel = [NSString stringWithFormat:@"Laptop %d", i];
+            [asset setLabel:currentLabel];
+            [asset setResaleValue:i * 17];
+            
+            // Get a random number between 0 and 9 inclusive
+            NSUInteger randomIndex = random() % [employees count];
+            
+            // Find that employee
+            Employee *randomEmployee = [employees objectAtIndex:randomIndex];
+            
+            // Assign the asset to the employee
+            [randomEmployee addAssetsObject:asset];
+        }
+        
+        
+        NSLog(@"Employees: %@", employees);
+        
+        NSLog(@"Giving up ownership of one employee");
+        
+        [employees removeObjectAtIndex:5];
+        
+        NSLog(@"Giving up ownership of array");
+        
+        employees = nil;      
                           
     }
     return 0;
