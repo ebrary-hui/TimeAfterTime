@@ -15,6 +15,7 @@
 		A57B46651499BB9000DB2DA4 /* ForeignStockHolding.m in Sources */ = {isa = PBXBuildFile; fileRef = A57B46641499BB9000DB2DA4 /* ForeignStockHolding.m */; };
 		A58ACAAD14971AAA00EFABFD /* MiscTest.m in Sources */ = {isa = PBXBuildFile; fileRef = A58ACAAC14971AAA00EFABFD /* MiscTest.m */; };
 		A58ACAB114971E2600EFABFD /* StockHolding.m in Sources */ = {isa = PBXBuildFile; fileRef = A58ACAB014971E2600EFABFD /* StockHolding.m */; };
+		A5AC47CD149C66EE002E4C84 /* Asset.m in Sources */ = {isa = PBXBuildFile; fileRef = A5AC47CC149C66EE002E4C84 /* Asset.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -46,6 +47,8 @@
 		A58ACAAC14971AAA00EFABFD /* MiscTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MiscTest.m; sourceTree = "<group>"; };
 		A58ACAAF14971E2600EFABFD /* StockHolding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StockHolding.h; sourceTree = "<group>"; };
 		A58ACAB014971E2600EFABFD /* StockHolding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StockHolding.m; sourceTree = "<group>"; };
+		A5AC47CB149C66EE002E4C84 /* Asset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Asset.h; sourceTree = "<group>"; };
+		A5AC47CC149C66EE002E4C84 /* Asset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Asset.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +101,8 @@
 				A52B86CE14947C8500F769EB /* TimeAfterTime.1 */,
 				A52B86CC14947C8500F769EB /* Supporting Files */,
 				A57B465F1499B0FF00DB2DA4 /* Employee.h */,
+				A5AC47CB149C66EE002E4C84 /* Asset.h */,
+				A5AC47CC149C66EE002E4C84 /* Asset.m */,
 				A57B46601499B0FF00DB2DA4 /* Employee.m */,
 				A57B46631499BB9000DB2DA4 /* ForeignStockHolding.h */,
 				A57B46641499BB9000DB2DA4 /* ForeignStockHolding.m */,
@@ -170,6 +175,7 @@
 				A58ACAB114971E2600EFABFD /* StockHolding.m in Sources */,
 				A57B46611499B0FF00DB2DA4 /* Employee.m in Sources */,
 				A57B46651499BB9000DB2DA4 /* ForeignStockHolding.m in Sources */,
+				A5AC47CD149C66EE002E4C84 /* Asset.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
